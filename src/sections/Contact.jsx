@@ -50,7 +50,7 @@ const Contact = () => {
                         </label>
                         <button className='field-btn' type='submit' disabled={loading}>
                             {loading ? 'Sending...' : 'Send Message'}
-                            <i className='ml-2 fas fa-paper-plane'></i>
+                            <i className='ml-2 fas fa-paper-plane' aria-label='sendMsg'></i>
                         </button>
                     </form>
                 </div>

@@ -28,7 +28,7 @@ export default function About() {
                 </div>
                 <div className='col-span-1 xl:row-span-3'>
                     <div className='grid-container bg-gray-800 p-6 rounded-lg shadow-lg'>
-                        <img className='w-full h-[266px] object-cover' src='/techStack.png'/>
+                        <img className='w-full h-[266px] object-cover' src='/techStack.png' alt='techStack'/>
                         <p className='head-text text-white'>Tech Stack</p>
                         <p className='grid-subtext text-gray-300'>I have good background experience in Python web development-especially with Flask and Django. I love learning about new technologies and applying them to real-world problems (I am new at React).</p>
                     </div>

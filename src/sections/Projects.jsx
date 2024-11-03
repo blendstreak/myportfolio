@@ -51,11 +51,11 @@ export default function Projects() {
             </a>)}
           </div>
           <div className='flex justify-between items-center mt-7 p-4'>
-            <button className='w-10' onClick={() => handleNavigation('previous')}>
-              <i className="fa-solid fa-circle-left text-white text-2xl"></i>
+            <button className='w-10' onClick={() => handleNavigation('previous')} aria-label='previous'>
+              <i className="fa-solid fa-circle-left text-white text-2xl" aria-label='previous'></i>
             </button>
-            <button className='w-10' onClick={() => handleNavigation('next')}>
-              <i className="fa-solid fa-circle-right text-white text-2xl"></i>
+            <button className='w-10' onClick={() => handleNavigation('next')} aria-label='next'>
+              <i className="fa-solid fa-circle-right text-white text-2xl" aria-label='next'></i>
             </button>
           </div>
         </div>

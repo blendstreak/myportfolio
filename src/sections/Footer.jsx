@@ -9,9 +9,9 @@ const Footer = () => {
             </div>
             <div className='flex flex-col lg:flex-row gap-3 items-center'>
                 <div className="social-icon text-2xl flex gap-3">
-                    <a className="fab fa-github" href='https://github.com/blendstreak' target='_blank' rel='noopener noreferrer'></a>
-                    <a className="fab fa-linkedin" href='https://linkedin.com/in/abhaysira' target='_blank' rel='noopener noreferrer'></a>
-                    <a className="fab fa-youtube" href='https://www.youtube.com/@blendstreak4290' target='_blank' rel='noopener noreferrer'></a>
+                    <a className="fab fa-github" href='https://github.com/blendstreak' target='_blank' rel='noopener noreferrer' aria-label='githubLink'></a>
+                    <a className="fab fa-linkedin" href='https://linkedin.com/in/abhaysira' target='_blank' rel='noopener noreferrer' aria-label='linkedinLink'></a>
+                    <a className="fab fa-youtube" href='https://www.youtube.com/@blendstreak4290' target='_blank' rel='noopener noreferrer'aria-label='youtubeLink'></a>
                 </div>
             </div>
             <p className='text-neutral-400'>© 2024 Abhay Singh Rana. All rights reserved.</p>
