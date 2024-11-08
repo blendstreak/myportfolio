@@ -14,7 +14,8 @@ export default function DemoComputer(props) {
     useEffect(() => {
         if (txt) {
             txt.rotation = -Math.PI/2
-            txt.center = new Vector2(0.5, 0.5)
+            txt.center = new Vector2(0.35, 0.65)
+            
         }
     }, [txt])
     useGSAP(() => {
@@ -25,7 +26,7 @@ export default function DemoComputer(props) {
         })
     }, [txt])
     return (
-        <group {...props} dispose={null} ref={group} scale={1.2}>
+        <group {...props} dispose={null} ref={group} scale={1.7}>
             <mesh
                 castShadow
                 receiveShadow

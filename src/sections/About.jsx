@@ -57,7 +57,7 @@ export default function About() {
                 <div className='xl:col-span-2 xl:row-span-3'>
                     <div className='grid-container'>
                         {/* <img src='' className='w-full sm:h-[266px] h-fit object-cover sm:object-top' /> */}
-                        <div className='grid grid-cols-2 gap-4'>
+                        <div className='grid grid-cols-1 sm:grid-cols-2 gap-4'>
                             <div>
                                 <img src="/other/gunAnim.gif" alt="test" />
                             </div>

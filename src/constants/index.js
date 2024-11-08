@@ -111,7 +111,7 @@ export const myProjects = [
         desc: 'CRM App With Django.',
         href: '',
         className: 'from-[#ffff6126]',
-        texture: '',
+        texture: 'assets/projects/crm.mp4',
         logo: 'fa-solid fa-address-book text-black-500 bg-neutral-200',
         logoStyle: {
             backgroundColor: '',
@@ -136,7 +136,7 @@ export const myProjects = [
         desc: "Image retriever with NASA's APOD API",
         href: 'reactnasaapi.netlify.app',
         className: 'from-[#ff94dd26]',
-        texture: '',
+        texture: '/assets/projects/nasa.mp4',
         logo: 'fa-solid fa-meteor text-red-400',
         logoStyle: {
             backgroundColor: '',
