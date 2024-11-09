@@ -14,6 +14,7 @@ export default function Button({ name, isBeam = false, containerClass }) {
             {name}
         </button>
         </center>
-
+        
+        
     )
 }
