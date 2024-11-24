@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <footer className='c-space p-5 border-t border-gray-700 flex flex-col lg:flex-row justify-between items-center flex-wrap gap-5 max-w-7xl m-auto'>
+        <footer className='c-space p-5 border-t border-gray-700 flex flex-col lg:flex-row justify-between items-center flex-wrap gap-5 max-w-7xl m-auto' id='footer'>
             {/* <div className='text-neutral-400 flex gap-2'>
                 <p>Designed & Built by</p>
                 <a href='https://abhaysrana.com' target='_blank' rel='noopener noreferrer'>Abhay Singh Rana</a>

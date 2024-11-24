@@ -28,7 +28,7 @@ const Contact = () => {
         }
     }
     return (
-        <section className='c-space my-20' id='contact'>
+        <section className='c-space mb-0' id='contact'>
             <div className='relative min-h-screen flex items-center justify-center flex-col'>
                 <div className='contact-container'>
                     <h3 className='head-text'>Contact Me</h3>

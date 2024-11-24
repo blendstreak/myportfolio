@@ -17,7 +17,7 @@ export const navLinks = [
     {
         id: 4,
         name: 'Contact',
-        href: '#contact',
+        href: '#footer',
     },
 ]
 

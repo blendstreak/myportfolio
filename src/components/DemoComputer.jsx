@@ -26,7 +26,7 @@ export default function DemoComputer(props) {
         })
     }, [txt])
     return (
-        <group {...props} dispose={null} ref={group} scale={1.7}>
+        <group {...props} dispose={null} ref={group} scale={1.6} >
             <mesh
                 castShadow
                 receiveShadow
