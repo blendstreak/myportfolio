@@ -31,8 +31,8 @@ To get this project up and running on your local machine, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/better-one.git # Replace with the actual repository URL
-    cd better-one
+    git clone https://github.com/blendstreak/myportfolio.git
+    cd myportfolio
     ```
 
 2.  **Install dependencies:**
